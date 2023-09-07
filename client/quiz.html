@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Login</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="./static/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link type="text/css" href="./static/css/bootstrap.min.css" rel="stylesheet">
+
+    <link type="text/css" href="./static/css/mdb.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/05313ba298.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link type="text/css" href="./static/css/style.css" rel="stylesheet">
+
+    <style>
+        html,
+        body,
+        header,
+        .intro-2 {
+            height: 100%;
+        }
+
+        @media (max-width: 740px) {
+
+            html,
+            body,
+            header,
+            .intro-2 {
+                height: 900px;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            html,
+            body,
+            header,
+            .intro-2 {
+                height: 900px;
+            }
+        }
+    </style>
+</head>
+
+<body class="creative-lp">
+    <!-- Navigation & Intro -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar" style="min-height: 10vh;">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold title" href="#">SMM PANEL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto smooth-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link title" href="#contact" data-offset="90">Contact</a>
+                    </li>
+                </ul>
+                <!-- Social Icon  -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <i class="fa fa-facebook-f title"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <i class="fa fa-twitter title"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <i class="fa fa-instagram title"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container quizcontainer mt-5" style="padding-top: 10vh; min-height: 50vh;">
+            <h1>Quiz</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" id="questionBox">Question 1: What is the capital of France?</h5>
+                    <!-- <form> -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="answer" value="a" id="option1" value="option1">
+                            <label class="form-check-label" for="option1">New York</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="answer" value="b" id="option2" value="option2">
+                            <label class="form-check-label" for="option2">Paris</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="answer" value="c" id="option3" value="option3">
+                            <label class="form-check-label" for="option3">London</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="answer" value="d" id="option4" value="option4">
+                            <label class="form-check-label" for="option4">Tokyo</label>
+                        </div>
+                    <!-- </form> -->
+                    <button id="submit" class="btn btn-primary mt-3">Submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  
+    <!-- Footer-->
+    <footer class="page-footer text-center text-md-left unique-color-dark pt-0">
+
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left pt-5">
+            <div class="row mt-3">
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>Stack Meet</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 90px;">
+                    <p>A great platform to learn with simple way.</p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>Courses</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Web Development </a>
+                    </p>
+                    <p>
+                        <a href="#!">Marketing</a>
+                    </p>
+                    <p>
+                        <a href="#!">Data Science</a>
+                    </p>
+                    <p>
+                        <a href="#!">You Tube</a>
+                    </p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>Useful links</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Home</a>
+                    </p>
+                    <p>
+                        <a href="#!">Contact</a>
+                    </p>
+                    <p>
+                        <a href="#!">courses</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an instructor</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Noida Sector 62, INDIA
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-0"></i> brohitashsingh89@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> +91 892 335 4700
+                    </p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i> +91 123 456 7890
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <!--/.Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright py-3 text-center  ">
+            <p class="text-md-right p-1 mx-3">Designed By Rohitash Singh</p>
+            <div class="container-fluid text-light">
+                © 2019 Copyright: <a href="" target="_blank"> stackmeet.com </a>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- Custom scripts -->
+    <script>
+        // Animation init
+        new WOW().init();
+
+        // Gallery
+        $(function () {
+            var selectedClass = "";
+            $(".filter").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#gallery").fadeTo(100, 0.1);
+                $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn().addClass('animation');
+                    $("#gallery").fadeTo(300, 1);
+                }, 300);
+            });
+        });
+
+    </script>
+
+
+
+    <script>
+        // Add event listeners to the FAQ items for expand/collapse functionality
+        const faqHeaders = document.querySelectorAll('.faq-block__header');
+        const icon = document.querySelectorAll('.fas.fa-plus-minus');
+
+        faqHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const collapseTarget = header.getAttribute('data-bs-target');
+                const isExpanded = header.getAttribute('aria-expanded') === 'true';
+
+                // Toggle the expanded state
+                header.setAttribute('aria-expanded', !isExpanded);
+
+                // Collapse other FAQ items in the same group
+                const parentAccordion = header.closest('.container').querySelector('.card-sp');
+                const faqItems = parentAccordion.querySelectorAll('.faq-block__header');
+                faqItems.forEach(item => {
+                    if (item !== header) {
+                        item.setAttribute('aria-expanded', false);
+                    }
+                });
+
+                // Toggle the collapse element
+                const collapseElement = document.querySelector(collapseTarget);
+                if (collapseElement) {
+                    const isCollapsed = collapseElement.classList.contains('show');
+                    if (isCollapsed) {
+                        collapseElement.classList.remove('show');
+                    } else {
+                        collapseElement.classList.add('show');
+                    }
+                }
+                // Update the icon class based on the expanded state
+                if (isExpanded) {
+                    icon.classList.remove('fa-minus');
+                    icon.classList.add('fa-plus');
+                } else {
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-minus');
+                }
+            });
+        });
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="./static/js/landing/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="./static/js/landing/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="./static/js/landing/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./static/js/landing/mdb.min.js"></script>
+
+
+    <script>
+        const quizData = [{
+            question: "Which of the following is a client site language?",
+            a: "Java",
+            b: "C",
+            c: "Python",
+            d: "JavaScript",
+            correct: "d",
+        },
+        {
+            question: "What does HTML stand for?",
+            a: "Hypertext Markup Language",
+            b: "Cascading Style Sheet",
+            c: "Jason Object Notation",
+            d: "Helicopters Terminals Motorboats Lamborginis",
+            correct: "a",
+        },
+        {
+            question: "What year was JavaScript launched?",
+            a: "1996",
+            b: "1995",
+            c: "1994",
+            d: "none of the above",
+            correct: "b",
+        },
+        {
+            question: "What does CSS stands for?",
+            a: "Hypertext Markup Language",
+            b: "Cascading Style Sheet",
+            c: "Jason Object Notation",
+            d: "Helicopters Terminals Motorboats Lamborginis",
+            correct: "b",
+        }
+        ];
+
+        let index = 0;
+        let correct = 0,
+            incorrect = 0,
+            total = quizData.length;
+        let questionBox = document.getElementById("questionBox");
+        let allInputs = document.querySelectorAll("input[type='radio']")
+        const loadQuestion = () => {
+            if (total === index) {
+                return quizEnd()
+            }
+            reset()
+            const data = quizData[index]
+            questionBox.innerHTML = `${index + 1}) ${data.question}`
+            allInputs[0].nextElementSibling.innerText = data.a
+            allInputs[1].nextElementSibling.innerText = data.b
+            allInputs[2].nextElementSibling.innerText = data.c
+            allInputs[3].nextElementSibling.innerText = data.d
+        }
+
+        document.querySelector("#submit").addEventListener(
+            "click",
+            function () {
+                const data = quizData[index]
+                const ans = getAnswer()
+                if (ans === data.correct) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+                index++;
+                loadQuestion()
+            }
+        )
+
+        const getAnswer = () => {
+            let ans;
+            allInputs.forEach(
+                (inputEl) => {
+                    if (inputEl.checked) {
+                        ans = inputEl.value;
+                    }
+                }
+            )
+            return ans;
+        }
+
+        const reset = () => {
+            allInputs.forEach(
+                (inputEl) => {
+                    inputEl.checked = false;
+                }
+            )
+        }
+
+        const quizEnd = () => {
+            document.getElementsByClassName("quizcontainer")[0].innerHTML = `
+        <div class="col">
+            <h3 class="w-100"> Hii, 🚀 you've secured ${correct} / ${total} </h3>
+        </div>
+    `
+        }
+        loadQuestion(index);
+    </script>
+
+
+
+</body>
+
+</html>
